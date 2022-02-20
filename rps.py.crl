@@ -1,0 +1,43 @@
+import random;
+def computerSelection():
+        random.seed()
+        a = random.randint(1, 3);
+        if(a == 1):
+            computerSelection = "rock"
+        elif(a == 2):
+            computerSelection = "scissors"
+        elif(a == 3):
+            computerSelection = "paper"
+        return computer
+b = 1
+c = 2
+d = 3
+while(b == 1, 3):
+    put Best of 10! to output
+    play = (int)(input())
+    for i in range (0, play):
+        computerChoice();
+        put Select rock, paper, or scissors to output
+        user = input()
+        if(user.lower() == "rock" and computerSelection().lower() == "rock"):
+            put tie to output
+        elif (user.lower() == "scissors" and computerSelection().lower() == "scissors"):
+            put tie to output
+        elif (user.lower() == "paper" and computerSelection().lower() == "paper"):
+            put tie to output
+        elif (user.lower() == "rock" and computerSelection().lower() == "scissors"):
+            put win to output
+        elif (user.lower() == "scissors" and computerSelection().lower() == "paper"):
+            put win to output
+        elif (user.lower() == "paper" and computerSelection().lower() == "rock"):
+            put win to output
+        elif (user.lower() == "scissors" and computerSelection().lower() == "rock"):
+            put lose to output
+        elif (user.lower() == "paper" and computerSelection().lower() == "scissors"):
+            put lose to output
+        elif (user.lower() == "rock" and computerSelection().lower() == "paper"):
+            put lose to output
+
+    b = (int)(input())
+    c = (int)(input())
+    d = (int)(input())
